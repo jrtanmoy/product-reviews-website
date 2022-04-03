@@ -1,0 +1,15 @@
+.link-design{
+    margin-top: 30px;
+}
+.link-design nav{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.link-design nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: larger;
+    font-weight: 600;
+}

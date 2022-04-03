@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css'
 import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [reviews,setreviews] = useState([])
@@ -23,7 +24,7 @@ const Home = () => {
                     <img src="https://m.media-amazon.com/images/I/71jQsSC3ovL._AC_SX679_.jpg" alt="" />
                 </div>
             </div>
-            <div className='review-container'>
+            <div className='reviews-container'>
                 <h1 className='h1-title-style'>Customer Reviews(3)</h1>
                 <div className='review-card'>
                     {
@@ -33,7 +34,7 @@ const Home = () => {
                         ></Review>)
                     }
                 </div>
-                
+                <span className='reviews-link-style'><Link to ="/reviews">See All reviews</Link></span>
             </div>
         </div>
     );

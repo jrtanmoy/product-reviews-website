@@ -2,14 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Home.css'
 import Review from '../Review/Review';
 import { Link } from 'react-router-dom';
+import useReviews from '../../Hook/useReviews';
 
 const Home = () => {
-    const [reviews,setreviews] = useState([])
-    useEffect( () => {
-        fetch('review-data.json')
-        .then(res=> res.json())
-        .then(data => setreviews(data))
-    },[])
+    const [reviews,setreviews] = useReviews([])
+    
 
     return (
         <div className='container'>

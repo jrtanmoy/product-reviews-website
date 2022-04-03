@@ -1,18 +1,21 @@
 .container{
+    align-items: center;
+    justify-content: center;
+}
+.first-section-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
 }
-.container img{
+.first-section-container img{
     max-width: 400px;
     justify-content: center;
 }
 .h1-title-style{
     color: seagreen;
     text-align: center;
+    margin-top: 40px;
 }
 h2{
     text-align: center;
@@ -28,8 +31,17 @@ p{
     margin-left: 20px;
     text-align: start;
 }
+.review-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
 @media screen and (max-width:640px) {
-    .container{
+    .first-section-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .review-card{
         grid-template-columns: repeat(1, 1fr);
     }
 }

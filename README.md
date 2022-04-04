@@ -1,7 +1,11 @@
-# Getting Started with Create React App
+# Product Reviews
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+* About Product Review
+* React Router used
+* Apply Recharts
+* Apply fontAwesomeIcon for ratting
 ## Available Scripts
 
 In the project directory, you can run:

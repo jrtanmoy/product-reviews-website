@@ -1,7 +1,9 @@
 .container{
     margin-top: 60px;
 }
-
+.review-title{
+    color: rgb(51, 99, 230);
+}
 .review-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

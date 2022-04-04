@@ -10,7 +10,7 @@ const Blogs = () => {
             <h3>2)What is semantic tag? </h3>
             <p>Semantic এইচটিএমএল tag এমন যেগুলি আমাদের এবং browser কে তাদের অর্থ স্পষ্টভাবে বর্ণনা করে। (header, footer এবং article)-এর মতো tag গুলো Semantic হিসাবে বিবেচনা করা হয় কারণ তারা tag টির উদ্দেশ্য এবং তাদের ভিতরে থাকা বিষয়বস্তুর ধরন সঠিকভাবে বর্ণনা করে। অপরদিকে (div, span) ইত্যাদী tag গুলা স্পষ্টভাবে কোনো অর্থ প্রকাশ করে না। কিছু Semantic tag এর উদাহরণ হল
             article,aside,details,figcaption,figure,footer,header,main,mark </p>
-            <h3>Defference between Inline,Block or Inline-block</h3>
+            <h3>3) Defference between Inline,Block or Inline-block</h3>
             <p>
                 <span>
                     a)Inline: Displays an element as an inline element. Any height and width properties will have no effect. Here are a few elements that have a default inline property: span, a, img ....etc.

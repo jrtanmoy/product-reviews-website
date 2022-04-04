@@ -9,7 +9,8 @@ const Blogs = () => {
             </p>
             <h3>2)What is semantic tag? </h3>
             <p>Semantic এইচটিএমএল tag এমন যেগুলি আমাদের এবং browser কে তাদের অর্থ স্পষ্টভাবে বর্ণনা করে। (header, footer এবং article)-এর মতো tag গুলো Semantic হিসাবে বিবেচনা করা হয় কারণ তারা tag টির উদ্দেশ্য এবং তাদের ভিতরে থাকা বিষয়বস্তুর ধরন সঠিকভাবে বর্ণনা করে। অপরদিকে (div, span) ইত্যাদী tag গুলা স্পষ্টভাবে কোনো অর্থ প্রকাশ করে না। কিছু Semantic tag এর উদাহরণ হল
-            article,aside,details,figcaption,figure,footer,header,main,mark </p>
+            article,aside,footer,header,main.
+            </p>
             <h3>3) Defference between Inline,Block or Inline-block</h3>
             <p>
                 <span>
@@ -17,13 +18,13 @@ const Blogs = () => {
                 </span>
                 <br />
                 <span>
-                     b)Block: Block starts on a NEW line and takes up the full width available. So that means block elements will occupy the entire width of its parent element.
-                     Here are a few elements that have a default block property: div, h1, p ....etc.
+                    b)Block: Block starts on a NEW line and takes up the full width available. So that means block elements will occupy the entire width of its parent element.
+                    Here are a few elements that have a default block property: div, h1, p ....etc.
                 </span>
-                <br /> 
+                <br />
                 <span>
                     c)Inline-block: It's essentially the same thing as inline, except that you can set height and width values.
-                </span>   
+                </span>
             </p>
         </div>
     );

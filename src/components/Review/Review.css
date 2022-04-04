@@ -1,5 +1,5 @@
 .review{
-    width: 300px;
+    max-width: 300px;
     height: 210px;
     background-color: white;
     border: 1px solid #95A0A7;

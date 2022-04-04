@@ -6,3 +6,11 @@
     box-shadow: 4px 14px 22px 12px #9e9d9d;
     position: relative;
 }
+.review p{
+    padding: 0px 20px;
+    margin-left: 0px;
+}
+.icon{
+    color: #FF9529;
+    margin-left: 2px;
+}
